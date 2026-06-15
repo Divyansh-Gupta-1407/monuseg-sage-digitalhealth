@@ -22,8 +22,6 @@ To address these challenges, this work combines advanced preprocessing technique
 
 > **Abstract:** Accurate nucleus segmentation is a fundamental task in digital pathology. This study presents a lightweight Attention U-Net framework evaluated on the MoNuSeg 2018 dataset. The proposed methodology integrates stain deconvolution, image enhancement, mask refinement, patch-based training, and overlapping patch inference to improve segmentation quality. The model achieved an IoU score of **0.8745** and a Dice Coefficient of **0.9323** on unseen full-resolution test images, demonstrating the effectiveness of attention mechanisms and the proposed stitching strategy for high-resolution histopathological image analysis.
 
-[![Paper Thumbnail](readme/images/thumbnail.png)](paper.pdf)
-
 ---
 
 ## Methodology & Architecture
